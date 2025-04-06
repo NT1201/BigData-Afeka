@@ -9,12 +9,9 @@ producer = KafkaProducer(
 
 # 🧪 New test users and books
 messages = [
-    {"user_id": 10010, "book_id": 5},
-    {"user_id": 10010, "book_id": 6},
-    {"user_id": 10011, "book_id": 7},
-    {"user_id": 10011, "book_id": 8},
-    {"user_id": 10012, "book_id": 9},
-    {"user_id": 10013, "book_id": 10}
+   {"user_id": 1, "book_id": 11},
+    {"user_id": 2, "book_id": 12},
+    {"user_id": 3, "book_id": 13},
 ]
 
 # 🚀 Send to Kafka
